@@ -1,0 +1,29 @@
+main{
+    display: flex;
+     
+}
+
+#desencriptada{
+        margin:0 0 0 150px;
+    }
+   
+
+.encriptador{
+    display: flex;
+    vertical-align: top;
+    
+    width: 20%;
+    text-transform: lowercase;
+}
+
+
+
+#encriptar{
+   background-color: rgb(20, 165, 217);
+   border-style: ;   
+
+}
+
+#desencriptar{
+    background-color: rgb(204, 225, 228);
+}
