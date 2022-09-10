@@ -1,29 +1,50 @@
-main{
+
+body{
+    background-color: aliceblue;
+}
+
+main {
     display: flex;
-     
+    margin-left: 80px;
+    margin-bottom: 50px;
 }
 
-#desencriptada{
-        margin:0 0 0 150px;
-    }
-   
+.copiar{
+    position: relative;
+    margin-top: 20px;
+    margin-left:205px ;
+}
 
-.encriptador{
+.botones{
     display: flex;
-    vertical-align: top;
-    
-    width: 20%;
-    text-transform: lowercase;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar{
+    background-color: darkblue;
+    color: white;
+}
+
+.desencriptar{
+    margin-left: 30px;
+}
+
+.descripcion{
+    font-size: 15px;
+}
+
+.input-texto{
+    margin-top: 20px;
+}
+.mensaje{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url(imagen.png);
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 100px;
 }
 
 
-
-#encriptar{
-   background-color: rgb(20, 165, 217);
-   border-style: ;   
-
-}
-
-#desencriptar{
-    background-color: rgb(204, 225, 228);
-}

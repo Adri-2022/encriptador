@@ -12,30 +12,26 @@
     </header>
     <main>
         <section>
-            <textarea class="input-texto" cols="40" rows="6" placeholder="Ingrese el texto aquí"></textarea>
-            <div class="botones">
-                <button id="encriptar">Encriptar</button>
-                <button type="boton" id="desencriptar">Desencriptar</button>
+            <textarea class = "input-texto" cols = "40" rows = "6" placeholder = "Ingrese el texto aquí"></textarea>
+            <div class = "botones">
+                <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
             </div>
         </section>
         <section>
-            <textarea  id="desencriptada" cols="60" rows="20" placeholder="Ningún mensaje fue encontrado"></textarea>
-            
+            <textarea class = "mensaje" cols = "18" rows = "8"></textarea>
+            <button class="copiar" onclick="btnCopiar()">Copiar</button>
         </section>
     </main>
-    <div class="encriptador">
         
-    </div>
-        
-    <div class="frame5">
+    <div class = "descripcion">
         <h3>Ingresa el texto que desees encriptar o desencriptar.</h3>
     </div>
-    <div class="frame1">
-        <img id="advertencia" src="adv">
-        <p id="advertencia">Solo letras minúsculas, sin acentos ni caracteres especiales</p>
-    </div>
-    
+
+        <p class="advertencia">Sólo letras minúsculas, sin acentos</p>
+
+    <script src= "script.js"></script>
     
 </body>
-<script src= "script.js"></script>
+
 </html>
