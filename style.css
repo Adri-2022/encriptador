@@ -1,11 +1,11 @@
 
 body{
-    background-color: aliceblue;
+    background-color: rgba(234, 174, 221, 0.837);
 }
 
 main {
     display: flex;
-    margin-left: 80px;
+    margin-left: 60px;
     margin-bottom: 50px;
 }
 
@@ -13,6 +13,9 @@ main {
     position: relative;
     margin-top: 20px;
     margin-left:205px ;
+    color:rgb(238, 190, 217);
+    font-size: 20px;
+    background-color: white;
 }
 
 .botones{
@@ -22,17 +25,19 @@ main {
 }
 
 .encriptar{
-    background-color: darkblue;
-    color: white;
+    background-color: rgb(139, 0, 83);
+    font-size: 20px;
+    color: rgb(238, 190, 217);
+    
 }
 
 .desencriptar{
     margin-left: 30px;
+    font-size: 30px;
+    background-color: white;
+    color:rgba(234, 174, 221, 0.837)
 }
 
-.descripcion{
-    font-size: 15px;
-}
 
 .input-texto{
     margin-top: 20px;
@@ -44,7 +49,15 @@ main {
     background-image: url(imagen.png);
     background-repeat: no-repeat;
     background-position: 18px;
-    background-size: 100px;
+    background-size: 200px;
+}
+
+.p{
+    display: inline-table;
+    margin-top: 0px;
+}
+#advertencia{
+    width: 5%;
 }
 
 
