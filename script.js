@@ -1,6 +1,7 @@
 const inputTexto = document.querySelector(".input-texto");
 const mensaje = document.querySelector(".mensaje");
 
+
 function btnEncriptar(){
     const textoEncriptado = encriptar(inputTexto.value);
     mensaje.value = textoEncriptado;

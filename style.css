@@ -1,63 +1,105 @@
 
 body{
-    background-color: rgba(234, 174, 221, 0.837);
+    background-color: rgba(195, 235, 243, 0.829);
+}
+
+h1{
+    font-family: 'Broadway';
+    color:rgba(13, 13, 130, 0.829);
 }
 
 main {
     display: flex;
     margin-left: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .copiar{
     position: relative;
     margin-top: 20px;
     margin-left:205px ;
-    color:rgb(238, 190, 217);
-    font-size: 20px;
+    padding: 10px;
+    color:rgb(13, 13, 130, 0.829);
+    font-size: 30px;
     background-color: white;
+    border: 1px;
+    border-radius: 20px;
+}
+
+.copiar:hover{
+    font-size:35px;
 }
 
 .botones{
-    display: flex;
+    display: inline-block;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .encriptar{
-    background-color: rgb(139, 0, 83);
-    font-size: 20px;
-    color: rgb(238, 190, 217);
+    background-color: rgb(13, 13, 130, 0.829);
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(195, 235, 243, 0.829);
+    border: 1px;
+    border-radius: 20px;
     
+}
+
+.encriptar:hover{
+    font-size:35px;
 }
 
 .desencriptar{
     margin-left: 30px;
+    padding: 10px;
     font-size: 30px;
     background-color: white;
-    color:rgba(234, 174, 221, 0.837)
+    color:rgba(13, 13, 130, 0.829);
+    border: 1px;
+    border-radius: 20px;
 }
 
+.desencriptar:hover{
+    font-size:35px;
+}
 
 .input-texto{
-    margin-top: 20px;
+    margin-top: 5px;
+    border: 1px;
+    border-radius: 30px;
+    padding: 100px 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input-texto :active{
+    border-color: rgb(235, 147, 15);
 }
 .mensaje{
+    border: 1px;
+    border-radius: 10px;
     position: relative;
-    margin-top: 20px;
-    margin-left: 90px;
+    margin-top: 5px;
+    margin-left: 180px;
     background-image: url(imagen.png);
     background-repeat: no-repeat;
     background-position: 18px;
     background-size: 200px;
+    padding: 100px 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .p{
-    display: inline-table;
-    margin-top: 0px;
+    display: block;
+    margin-top: 20px;
 }
-#advertencia{
-    width: 5%;
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
